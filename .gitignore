@@ -1,0 +1,11 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+**/.DS_Store
+.idea/
+.vs/
+unit-testing-using-dotnet-test.sln.DotSettings.user
+
+*.log
