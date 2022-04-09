@@ -6,11 +6,12 @@ namespace PrimeService
     {
         public bool IsPrime(int candidate)
         {
-            if (candidate < 2)
+            if (candidate < 2 && candidate < 10)
             {
                 return false;
             }
-            throw new NotImplementedException("Not fully implemented.");
+
+            return true;
         }
     }
 }
